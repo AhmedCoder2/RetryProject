@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0B7F0352BAD9A43007546FF /* RetryPocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F0342BAD9A43007546FF /* RetryPocApp.swift */; };
+		A0B7F0372BAD9A43007546FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F0362BAD9A43007546FF /* ContentView.swift */; };
+		A0B7F0392BAD9A46007546FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7F0382BAD9A46007546FF /* Assets.xcassets */; };
+		A0B7F03C2BAD9A46007546FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B7F03B2BAD9A46007546FF /* Preview Assets.xcassets */; };
+		A0B7F03E2BAD9A46007546FF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F03D2BAD9A46007546FF /* Persistence.swift */; };
+		A0B7F0412BAD9A46007546FF /* RetryPoc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F03F2BAD9A46007546FF /* RetryPoc.xcdatamodeld */; };
+		A0B7F04B2BAD9A46007546FF /* RetryPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F04A2BAD9A46007546FF /* RetryPocTests.swift */; };
+		A0B7F0552BAD9A46007546FF /* RetryPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F0542BAD9A46007546FF /* RetryPocUITests.swift */; };
+		A0B7F0572BAD9A46007546FF /* RetryPocUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F0562BAD9A46007546FF /* RetryPocUITestsLaunchTests.swift */; };
+		A0B7F0642BAD9AE5007546FF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F0632BAD9AE5007546FF /* ViewModel.swift */; };
+		A0B7F0662BAD9AF4007546FF /* ItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7F0652BAD9AF4007546FF /* ItemService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0B7F0472BAD9A46007546FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7F0292BAD9A43007546FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B7F0302BAD9A43007546FF;
+			remoteInfo = RetryPoc;
+		};
+		A0B7F0512BAD9A46007546FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0B7F0292BAD9A43007546FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0B7F0302BAD9A43007546FF;
+			remoteInfo = RetryPoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0B7F0312BAD9A43007546FF /* RetryPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetryPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7F0342BAD9A43007546FF /* RetryPocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryPocApp.swift; sourceTree = "<group>"; };
+		A0B7F0362BAD9A43007546FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0B7F0382BAD9A46007546FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0B7F03B2BAD9A46007546FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0B7F03D2BAD9A46007546FF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A0B7F0402BAD9A46007546FF /* RetryPoc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RetryPoc.xcdatamodel; sourceTree = "<group>"; };
+		A0B7F0462BAD9A46007546FF /* RetryPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetryPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7F04A2BAD9A46007546FF /* RetryPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryPocTests.swift; sourceTree = "<group>"; };
+		A0B7F0502BAD9A46007546FF /* RetryPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetryPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B7F0542BAD9A46007546FF /* RetryPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryPocUITests.swift; sourceTree = "<group>"; };
+		A0B7F0562BAD9A46007546FF /* RetryPocUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryPocUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0B7F0632BAD9AE5007546FF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		A0B7F0652BAD9AF4007546FF /* ItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0B7F02E2BAD9A43007546FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7F0432BAD9A46007546FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7F04D2BAD9A46007546FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0B7F0282BAD9A43007546FF = {
+			isa = PBXGroup;
+			children = (
+				A0B7F0332BAD9A43007546FF /* RetryPoc */,
+				A0B7F0492BAD9A46007546FF /* RetryPocTests */,
+				A0B7F0532BAD9A46007546FF /* RetryPocUITests */,
+				A0B7F0322BAD9A43007546FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0B7F0322BAD9A43007546FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7F0312BAD9A43007546FF /* RetryPoc.app */,
+				A0B7F0462BAD9A46007546FF /* RetryPocTests.xctest */,
+				A0B7F0502BAD9A46007546FF /* RetryPocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0B7F0332BAD9A43007546FF /* RetryPoc */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7F0342BAD9A43007546FF /* RetryPocApp.swift */,
+				A0B7F0362BAD9A43007546FF /* ContentView.swift */,
+				A0B7F0382BAD9A46007546FF /* Assets.xcassets */,
+				A0B7F03D2BAD9A46007546FF /* Persistence.swift */,
+				A0B7F0632BAD9AE5007546FF /* ViewModel.swift */,
+				A0B7F0652BAD9AF4007546FF /* ItemService.swift */,
+				A0B7F03F2BAD9A46007546FF /* RetryPoc.xcdatamodeld */,
+				A0B7F03A2BAD9A46007546FF /* Preview Content */,
+			);
+			path = RetryPoc;
+			sourceTree = "<group>";
+		};
+		A0B7F03A2BAD9A46007546FF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7F03B2BAD9A46007546FF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0B7F0492BAD9A46007546FF /* RetryPocTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7F04A2BAD9A46007546FF /* RetryPocTests.swift */,
+			);
+			path = RetryPocTests;
+			sourceTree = "<group>";
+		};
+		A0B7F0532BAD9A46007546FF /* RetryPocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7F0542BAD9A46007546FF /* RetryPocUITests.swift */,
+				A0B7F0562BAD9A46007546FF /* RetryPocUITestsLaunchTests.swift */,
+			);
+			path = RetryPocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0B7F0302BAD9A43007546FF /* RetryPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7F05A2BAD9A46007546FF /* Build configuration list for PBXNativeTarget "RetryPoc" */;
+			buildPhases = (
+				A0B7F02D2BAD9A43007546FF /* Sources */,
+				A0B7F02E2BAD9A43007546FF /* Frameworks */,
+				A0B7F02F2BAD9A43007546FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetryPoc;
+			productName = RetryPoc;
+			productReference = A0B7F0312BAD9A43007546FF /* RetryPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0B7F0452BAD9A46007546FF /* RetryPocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7F05D2BAD9A46007546FF /* Build configuration list for PBXNativeTarget "RetryPocTests" */;
+			buildPhases = (
+				A0B7F0422BAD9A46007546FF /* Sources */,
+				A0B7F0432BAD9A46007546FF /* Frameworks */,
+				A0B7F0442BAD9A46007546FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B7F0482BAD9A46007546FF /* PBXTargetDependency */,
+			);
+			name = RetryPocTests;
+			productName = RetryPocTests;
+			productReference = A0B7F0462BAD9A46007546FF /* RetryPocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0B7F04F2BAD9A46007546FF /* RetryPocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0B7F0602BAD9A46007546FF /* Build configuration list for PBXNativeTarget "RetryPocUITests" */;
+			buildPhases = (
+				A0B7F04C2BAD9A46007546FF /* Sources */,
+				A0B7F04D2BAD9A46007546FF /* Frameworks */,
+				A0B7F04E2BAD9A46007546FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B7F0522BAD9A46007546FF /* PBXTargetDependency */,
+			);
+			name = RetryPocUITests;
+			productName = RetryPocUITests;
+			productReference = A0B7F0502BAD9A46007546FF /* RetryPocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0B7F0292BAD9A43007546FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A0B7F0302BAD9A43007546FF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A0B7F0452BAD9A46007546FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A0B7F0302BAD9A43007546FF;
+					};
+					A0B7F04F2BAD9A46007546FF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A0B7F0302BAD9A43007546FF;
+					};
+				};
+			};
+			buildConfigurationList = A0B7F02C2BAD9A43007546FF /* Build configuration list for PBXProject "RetryPoc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0B7F0282BAD9A43007546FF;
+			productRefGroup = A0B7F0322BAD9A43007546FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0B7F0302BAD9A43007546FF /* RetryPoc */,
+				A0B7F0452BAD9A46007546FF /* RetryPocTests */,
+				A0B7F04F2BAD9A46007546FF /* RetryPocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0B7F02F2BAD9A43007546FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7F03C2BAD9A46007546FF /* Preview Assets.xcassets in Resources */,
+				A0B7F0392BAD9A46007546FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7F0442BAD9A46007546FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7F04E2BAD9A46007546FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0B7F02D2BAD9A43007546FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7F0662BAD9AF4007546FF /* ItemService.swift in Sources */,
+				A0B7F0642BAD9AE5007546FF /* ViewModel.swift in Sources */,
+				A0B7F03E2BAD9A46007546FF /* Persistence.swift in Sources */,
+				A0B7F0412BAD9A46007546FF /* RetryPoc.xcdatamodeld in Sources */,
+				A0B7F0372BAD9A43007546FF /* ContentView.swift in Sources */,
+				A0B7F0352BAD9A43007546FF /* RetryPocApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7F0422BAD9A46007546FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7F04B2BAD9A46007546FF /* RetryPocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B7F04C2BAD9A46007546FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7F0572BAD9A46007546FF /* RetryPocUITestsLaunchTests.swift in Sources */,
+				A0B7F0552BAD9A46007546FF /* RetryPocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0B7F0482BAD9A46007546FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B7F0302BAD9A43007546FF /* RetryPoc */;
+			targetProxy = A0B7F0472BAD9A46007546FF /* PBXContainerItemProxy */;
+		};
+		A0B7F0522BAD9A46007546FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0B7F0302BAD9A43007546FF /* RetryPoc */;
+			targetProxy = A0B7F0512BAD9A46007546FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0B7F0582BAD9A46007546FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0B7F0592BAD9A46007546FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0B7F05B2BAD9A46007546FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetryPoc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.la.RetryPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0B7F05C2BAD9A46007546FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RetryPoc/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.la.RetryPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0B7F05E2BAD9A46007546FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.la.RetryPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetryPoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetryPoc";
+			};
+			name = Debug;
+		};
+		A0B7F05F2BAD9A46007546FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.la.RetryPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RetryPoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RetryPoc";
+			};
+			name = Release;
+		};
+		A0B7F0612BAD9A46007546FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.la.RetryPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetryPoc;
+			};
+			name = Debug;
+		};
+		A0B7F0622BAD9A46007546FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.la.RetryPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RetryPoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0B7F02C2BAD9A43007546FF /* Build configuration list for PBXProject "RetryPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7F0582BAD9A46007546FF /* Debug */,
+				A0B7F0592BAD9A46007546FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7F05A2BAD9A46007546FF /* Build configuration list for PBXNativeTarget "RetryPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7F05B2BAD9A46007546FF /* Debug */,
+				A0B7F05C2BAD9A46007546FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7F05D2BAD9A46007546FF /* Build configuration list for PBXNativeTarget "RetryPocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7F05E2BAD9A46007546FF /* Debug */,
+				A0B7F05F2BAD9A46007546FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0B7F0602BAD9A46007546FF /* Build configuration list for PBXNativeTarget "RetryPocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0B7F0612BAD9A46007546FF /* Debug */,
+				A0B7F0622BAD9A46007546FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0B7F03F2BAD9A46007546FF /* RetryPoc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0B7F0402BAD9A46007546FF /* RetryPoc.xcdatamodel */,
+			);
+			currentVersion = A0B7F0402BAD9A46007546FF /* RetryPoc.xcdatamodel */;
+			path = RetryPoc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0B7F0292BAD9A43007546FF /* Project object */;
+}
