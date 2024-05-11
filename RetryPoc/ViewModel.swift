@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import ItemDomain
+
 class ViewModel: ObservableObject {
 
     @Published var items: [Item] = []

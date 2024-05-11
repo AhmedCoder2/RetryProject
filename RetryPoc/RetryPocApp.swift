@@ -5,6 +5,7 @@
 //  Created by Ahmed on 22/03/2024.
 //
 
+import ItemDomain
 import SwiftUI
 
 @main
