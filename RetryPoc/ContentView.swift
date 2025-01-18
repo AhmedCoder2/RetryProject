@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
 
     @ObservedObject var viewModel: ViewModel
+
     init(viewModel: ViewModel) {
         self.viewModel = viewModel
     }
